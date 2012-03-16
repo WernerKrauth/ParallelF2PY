@@ -1,0 +1,10 @@
+This is a test program for the cooperation between python multiprocessing
+and f2py. 
+
+Compilation with 
+
+f2py -c -m sine_module sine_operation.f
+
+sine_module.sine_add_1 works nicely, but the use of shared data is pointless...
+sine_module.sine_add_2 does not work, there is something I don't understand...
+
