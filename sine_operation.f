@@ -1,10 +1,9 @@
 cc=======+=========+=========+=========+=========+=========+=========+==
 cc PROGRAM : event_chain.f
 cc TYPE    : Fortran 77 program 
-cc PURPOSE : Event-chain simulation for 4 particles in a square box
-cc           this program creates a python module 
+cc PURPOSE : test program for f2py - multiprocessing
 cc COMMENT : 
-cc VERSION : 23 FEB 2012
+cc VERSION : 16 MAR 2012
 cc=======+=========+=========+=========+=========+=========+=========+==
       subroutine sine_add_1(data)
       real*8 data
