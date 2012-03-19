@@ -3,9 +3,9 @@
 import multiprocessing as MP
 import sine_module,math
 def sine_add_python(task):
-    "it is this function which I want to write in 
+    """it is this function which I want to write in 
     Fortran or C, keeping the access to the RawArray, 
-    rather than to a copy of it"
+    rather than to a copy of it"""
     for k in range(2,100001): 
         shared_data[task] += math.sin(1./k)
 def worker(task_queue, shared_data):
