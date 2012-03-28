@@ -12,8 +12,10 @@ Cf2py intent (in,out) data
          data = data + sin(1./k)
       end do
       end
-      subroutine sine_add_2(data,index)
-      real*8 data(10)
+
+      subroutine sine_add_2(index,data,N)
+      real*8 data(N)
+      integer index
 Cf2py intent (in,out) data
       do k = 2, 100000
          data(index+1) = data(index+1) + sin(1./k)
