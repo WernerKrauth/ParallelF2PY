@@ -10,6 +10,6 @@ subroutine c_sine_add_3(index, n, data) bind(c)
 integer(c_int), intent(in) :: index, n
 real(c_double), intent(inout) :: data(n)
 call sine_add_3(index, data)
-end module
+end subroutine
 
 end module
